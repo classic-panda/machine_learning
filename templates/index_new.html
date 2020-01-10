@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>10secondppt-AI powered ppt maker</title>
+    <meta name="description" content="Automated design of presentation on your chosen topic in SECONDS by utilization of Artificial Intelligence and Cloud Computing">
+    <meta name="keywords" content="artificial intelligence, generate ppt,automatic presentation,powerpoint presentation, make powerpoint presentaion, presentation templates, python">
+    <meta name="google-signin-client_id" content="357672654281-rf2671i47e3loe3abj76hi8677cb5hg0.apps.googleusercontent.com">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="static/css/styles-merged.css">
+    <link rel="stylesheet" href="static/css/style.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+    <!-- navbar-fixed-top  -->
+    
+    
+    <nav class="navbar probootstrap-megamenu navbar-default probootstrap-navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1>10secondppt</h1>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-Ww2477x1ddx0ZAYy-77.gif' border='0' alt='counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=Ww2477x1ddx0ZAYy'></script></div>
+            <li><a href="#pricingone">Pricing</a></li>
+            <li><a href="#contactone">Contact</a></li>
+            <!-- <li class="probootstra-cta-button"><a href="#" class="btn" data-toggle="modal" data-target="#loginModal">Log in</a></li>
+            <li class="probootstra-cta-button last"><a href="#" class="btn btn-ghost" data-toggle="modal" data-target="#signupModal">Sign up</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <section class="probootstrap-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center probootstrap-hero-text pb0 probootstrap-animate" data-animate-effect="fadeIn">
+            <h1>PREPARE YOUR PRESENTATION IN SECONDS</h1>
+            <p>Automated design of presentation on your chosen topic in SECONDS by utilization of Artificial Intelligence and Cloud Computing</p>
+            <p>
+              <a href="#features" class="btn btn-primary btn-lg" role="button">FEATURES</a>
+              <a href="{{ url_for('genppt') }}" class="btn btn-primary btn-ghost btn-lg" role="button">Try it for free</a>
+            </p>
+            <!-- <p><a href="#"><i class="icon-play2"></i> Watch the video</a></p> -->
+          </div>
+        </div>
+
+        <div class="row probootstrap-feature-showcase">
+          <div class="col-md-4 col-md-push-8 probootstrap-showcase-nav probootstrap-animate">
+            
+          </div>
+          <div class="col-md-12  probootstrap-animate" style="position: relative;">
+            <div class="probootstrap-home-showcase-wrap">
+              <div class="probootstrap-home-showcase-inner">
+                <div class="probootstrap-chrome">
+                  <div><span></span><span></span><span></span></div>
+                </div>
+                <div class="probootstrap-image-showcase">
+                  <ul class="probootstrap-images-list">
+                    <li class="active"><img src="static/img/img_new.jpg" alt="Image" class="img-responsive"></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+    
+    <section id="features" class="probootstrap-section probootstrap-bg-white probootstrap-zindex-above-showcase">
+       <div class="container">
+    
+        <div class="row">
+            <div style="padding-top: 30px" class="col-lg-5 col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">It is very fast</h2>
+                <p class="lead">
+                    Have a presentation template ready to work on in seconds<br>
+                    
+                </p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <img style="padding-top: 60px !important;" class="img-responsive" src="static/img/img1.png" alt="generate presentation template in seconds" width="300" height="300">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div style="padding-top: 30px" class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Automates the most tedious tasks</h2>
+                <p class="lead">
+                    Our algorithm automatically downloads relevant pictures for your presentation and designs a customised template for you to work on.
+                </p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <img style="padding-top: 60px !important;" class="img-responsive" src="static/img/img2.jpg" alt="automate the tedious task of finding pictures for your presentation" height="300" width="300">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div style="padding-top: 30px" class="col-lg-5 col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">GET A HEAD START WITH "SMART" TEMPLATES</h2>
+                <p class="lead">
+                    Our AI algorithm selects a relevant picture from the internet and designs a custom template that the user can work on.
+                </p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6 probootstrap-animate" data-animate-effect="fadeIn">
+                <img style="padding-top: 60px !important;" class="img-responsive" src="static/img/img3.jpeg" alt="design a custom template with our AI" height="300" width="300">
+            </div>
+        </div>
+        
+        
+
+    </div>
+    </section>
+    <section id="pricingone" class="probootstrap-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center probootstrap-hero-text probootstrap-animate" data-animate-effect="fadeIn">
+            <h1>Pricing Table</h1>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section probootstrap-bg-white probootstrap-pricing-table">
+      <div class="container">
+        <div class="row probootstrap-gutter0">
+          <div class="col-md-4 probootstrap-pricing-wrap">
+            <div class="probootstrap-pricing probootstrap-animate" data-animate-effect="fadeIn">
+
+              <h3>Personal <span>Free right now</span></h3>
+              <div class="probootstrap-price-wrap">
+                <span class="probootstrap-price"></span>
+                
+              </div>
+              <ul>
+                <li>5 slide presentation</li>
+                <li>Smart templates</li>
+                <li>Unlimited Presentations</li>
+               
+              </ul>
+
+              <p><a href="{{ url_for('genppt') }}" class="btn btn-primary btn-lg">Try for free</a></p>
+
+            </div>
+          </div>
+          <div class="col-md-4 probootstrap-pricing-wrap">
+            <div class="probootstrap-pricing popular probootstrap-animate" data-animate-effect="fadeIn">
+
+              <h3>Advance <span>Coming soon (2019)</span></h3>
+              
+              <div class="probootstrap-price-wrap">
+                <span class="probootstrap-price"></span>
+                <span class="probootstrap-price-per-month"></span>
+              </div>
+              <ul>
+                <li>10 Slides</li>
+                <li>Slides based on 5 different keywords</li>
+                <li>Unlimited Presentations</li>
+              </ul>
+
+              <p><a href="{{ url_for('genppt') }}" class="btn btn-primary btn-lg">Try for Free</a></p>
+
+            </div>
+          </div>
+          <div class="col-md-4 probootstrap-pricing-wrap">
+            <div class="probootstrap-pricing probootstrap-animate" data-animate-effect="fadeIn">
+
+              <h3>Business<span>Coming soon (2019)</span></h3>
+              <div class="probootstrap-price-wrap">
+                <span class="probootstrap-price"></span>
+                <span class="probootstrap-price-per-month"></span>
+              </div>
+              <ul>
+                <li>Text as well as graphics included</li>
+                <li>5 Slides</li>
+                <li>Unlimited Presentations</li>
+              </ul>
+
+              <p><a href="{{ url_for('genppt') }}" class="btn btn-primary btn-lg">Try for Free</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+      </div>
+    </section>
+    <section>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </section>
+
+    
+    
+    <section class="probootstrap-cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">We'd like to help and talk with you</h2>
+            <a href="#" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="probootstrap-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 probootstrap-animate">
+                <div class="probootstrap-footer-widget">
+                  <h3>Links</h3>
+                  
+                </div>
+              </div>
+              
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-md-12 copyright probootstrap-animate">
+            <p><small>&copy; 2019 <a href="www.insycon.org">Insycon</a>. All Rights Reserved. <br> </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Modal login -->
+    <div class="modal fadeInUp probootstrap-animated" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-md vertical-align-center">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-cross"></i></button>
+            <div class="probootstrap-modal-flex">
+              <div class="probootstrap-modal-figure" style="background-image: url(img/modal_bg.jpg);"></div>
+              <div class="probootstrap-modal-content">
+                <form action="#" class="probootstrap-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div> 
+                  <div class="form-group clearfix mb40">
+                    <label for="remember" class="probootstrap-remember"><input type="checkbox" id="remember"> Remember Me</label>
+                    <a href="#" class="probootstrap-forgot">Forgot Password?</a>
+                  </div>
+                  <div class="form-group text-left">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign In">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group probootstrap-or">
+                    <span><em>or</em></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-facebook"><span>connect with</span> Facebook</button>
+                        <div class="g-signin2" data-onsuccess="onSignIn">
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-google"><span>connect with</span> Google</button>
+                      </div>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-twitter"><span>connect with</span> Twitter</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END modal login -->
+    
+    <!-- Modal signup -->
+    <div class="modal fadeInUp probootstrap-animated" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-md vertical-align-center">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-cross"></i></button>
+            <div class="probootstrap-modal-flex">
+              <div class="probootstrap-modal-figure" style="background-image: url(img/modal_bg.jpg);"></div>
+              <div class="probootstrap-modal-content">
+                <form action="#" class="probootstrap-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Re-type Password">
+                  </div> 
+                  <div class="form-group clearfix mb40">
+                    <label for="remember" class="probootstrap-remember"><input type="checkbox" id="remember"> Remember Me</label>
+                    <a href="#" class="probootstrap-forgot">Forgot Password?</a>
+                  </div>
+                  <div class="form-group text-left">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign Up">
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="form-group probootstrap-or">
+                    <span><em>or</em></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-facebook"><span>connect with</span> Facebook</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-google"><span>connect with</span> Google</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-twitter"><span>connect with</span> Twitter</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END modal signup -->
+
+    <script src="static/js/scripts.min.js"></script>
+    <script src="static/js/custom.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </body>
+</html>

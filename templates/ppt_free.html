@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>10secondppt-AI powered ppt maker</title>
+    <meta name="description" content="Automated design of presentation on your chosen topic in SECONDS by utilization of Artificial Intelligence and Cloud Computing">
+    <meta name="keywords" content="artificial intelligence, generate ppt,automatic presentation,powerpoint presentation, make powerpoint presentaion, presentation templates, python">
+    <meta name="google-signin-client_id" content="357672654281-rf2671i47e3loe3abj76hi8677cb5hg0.apps.googleusercontent.com">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="static/css/styles-merged.css">
+    <link rel="stylesheet" href="static/css/style.min.css">
+
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+    <!-- navbar-fixed-top  -->
+    
+    
+    <nav class="navbar probootstrap-megamenu navbar-default probootstrap-navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><a href="{{ url_for('homepage') }}">10secondppt</a></h1>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li><a href="{{ url_for('homepage') }}">Home</a></li>
+            <!-- <li class="probootstra-cta-button"><a href="#" class="btn" data-toggle="modal" data-target="#loginModal">Log in</a></li>
+            <li class="probootstra-cta-button last"><a href="#" class="btn btn-ghost" data-toggle="modal" data-target="#signupModal">Sign up</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <section class="probootstrap-hero">
+      <div class="container">
+        <div class="row">
+          <div style="padding-left: 14%;padding-top: 20%" class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2  probootstrap-hero-text pb0 probootstrap-animate" data-animate-effect="fadeIn">
+            
+            <h3>Please enter the topic of your presentation in the text box below and press the button,"Generate Presentation".<br>
+The presentation will get downloaded to your browser.</h3>
+            
+            <!-- <p><a href="#"><i class="icon-play2"></i> Watch the video</a></p> -->
+          </div>
+        </div>
+
+        <div style="" class="col-lg-12 text-center">
+       <form style="padding-top: 15%" action="{{ url_for('generate_ppt') }}" method="GET" class="form-inline mr-auto">
+  <input style="height: 50px; width: 400px" class="form-control mr-sm-2" name="input" type="search" placeholder="Enter the topic to generate presentation">
+  <button style="color: green; width: 300px; background: black;" class="btn blue-gradient btn-unique btn-rounded btn-lg my-0" type="submit" value="submit">Generate Presentation</button>
+</form>
+
+       
+      </div>
+    </section>
+    <section class="probootstrap-hero">
+      <div style="margin-left: 20% !important" class="container">
+        <div class="row">
+          <div style="padding-left: 14%;padding-top: 10%;text-align: left; align-items: center;" class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center probootstrap-hero-text pb0 probootstrap-animate" data-animate-effect="fadeIn">
+            <ul>
+              <li>The presentation template contains 5 slides.</li>
+              <li>It will be downloaded with the name of RESULT.pptx</li>
+              <li>Relevant pictures are selected by our AI algorithm</li>
+              <li>Template is designed using our smart AI</li>
+            </ul>
+          
+        </div>
+
+      </div>
+      
+
+    </section>
+
+    <script src="static/js/scripts.min.js"></script>
+    <script src="static/js/custom.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </body>
+</html>
