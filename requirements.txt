@@ -189,7 +189,7 @@ pydot==1.4.1
 pydub==0.23.0
 pyflakes==1.6.0
 pyglet==1.2.4
-Pygments==2.2.0
+Pygments==2.7.4
 pygpu==0.7.6
 pykafka==2.8.0
 pyLDAvis==2.1.2
