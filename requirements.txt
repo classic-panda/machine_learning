@@ -174,7 +174,7 @@ ply==3.11
 pocketsphinx==0.1.15
 preshed==0.46.4
 prompt-toolkit==1.0.15
-protobuf==3.6.1
+protobuf==3.18.3
 psutil==5.4.5
 ptyprocess==0.5.2
 py==1.5.3
